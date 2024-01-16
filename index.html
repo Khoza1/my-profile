@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha256-c3pA6IvjnXZS9uB2MxPFBgWlghv+dVHsi4vGG7KKt2w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <title>Portfolio - Felix Juliano</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <div class="nav-header">
+                <div class="menu-icon" onclick="toggleMenu()">
+                    <i class="fas fa-bars"> cv</i>
+                </div>
+
+                <div id="dark-mode" onclick="toggleDarkMode()">
+                    <i class="fas fa-moon"></i>
+                </div>
+
+            </div>
+            <ul id="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a class="contact-button" href="#contact">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="container">
+            <div  class="profile-border">
+                <img style="height: 180px; border-radius: 50%;" src="seo.png" alt="Felix Juliano">
+            </div>
+            <div class="intro">
+                <h1>Felix Juliano</h1>
+                <p>Full Stack Developer</p>
+            </div>
+        </div>
+    </header>
+
+    <section id="about-me" class="about-me card">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I am an enthusiastic web development enthusiast, specializing in technologies such as Python, Django, REST API, HTML, CSS, and JavaScript. I am constantly exploring new ways to create modern and effective web experiences. Let's work together and turn ideas into reality!</p>
+        </div>
+    </section>
+
+    <section id="skills" class="skills card">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skill-cards">
+                <div class="skill-card">
+                    <div class="skill-border">
+                        <img style="width: 130px;" src="Python-language.png" alt="Python Icon">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p>Python</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-border">
+                        <img style="width: 130px;" src="django-icon-0.png" alt="Python Icon">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p>Django</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-border">
+                        <img style="width: 130px;" src="rest-api-1.svg" alt="Python Icon">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p>Django Rest API</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-border">
+                        <img style="width: 130px;" src="logo-2582748_640.webp" alt="Python Icon">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p>HTML</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-border">
+                        <img style="width: 130px;" src="logo-2582747_1280.webp" alt="Python Icon">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p>CSS</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-border">
+                        <img style="width: 130px;" src="javascript-2189147_1280.png" alt="Python Icon">
+                        <div class="progress-bar"></div>
+                    </div>
+                    <p>JavaScript</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects card">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-cards">
+                <div class="project-card">
+                    <img style="width: 500px;" src="esclakhza.png" alt="Project 1">
+                    <div class="project-details">
+                        <p>Online School.</p>
+                        <a href="https://khozabeta.onrender.com/" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img style="width: 500px;" src="khoza.png" alt="Project 2">
+                    <div class="project-details">
+                        <p>Online Store.</p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <img style="width: 500px; height: 270px;" src="robot-312566_1280.png" alt="Project 3">
+                    <div class="project-details">
+                        <p>Certificate Robot.</p>
+                        <a href="#" target="_blank">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact card">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>Let's work together! Get in touch with me:</p>
+            my whatsapp: +258842289861
+            <br>
+            <br>
+            <a href="mailto:felix.khoza@uzambeze.ac.mz" class="contact-button">Contact Me</a>
+        </div>
+    </section>
+
+    <script src="dark-mode.js"></script>
+    <script src="menu-toggle.js"></script>
+</body>
+
+</html>
